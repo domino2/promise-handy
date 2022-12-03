@@ -1,0 +1,23 @@
+{
+  "include": ["src/**/*", "tests/**/*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "checkJs": false,
+    "sourceMap": true,
+    "lib": ["ES2020", "DOM", "ESNext.String"],
+    "baseUrl": ".",
+    "paths": {
+      "(SRC)/*": ["src/*"]
+    }
+  }
+}
